@@ -27,7 +27,7 @@ public class ChangeRequestsStatuses {
 
         EdboRequest edboRequest = new EdboRequest();
 //        System.out.println(new java.text.SimpleDateFormat("dd.MM.yyyy HH:mm:ss").format("04.07.2014"));
-        String changeStatuses = edboRequest.changeStatuses(1, 4, "2014-07-04", "12", "04.07.2014 17:40:00");
+        String changeStatuses = edboRequest.changeStatuses(1, 4, "2014-07-10", "17", "10.07.2014 17:40:00");
         System.out.println(changeStatuses);
     }
 
